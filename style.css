@@ -346,10 +346,10 @@ h1 em {
 }
 
 .avatar {
-  width: 84px;
-  height: 84px;
-  border-radius: 26px;
-  background: linear-gradient(140deg, var(--accent), var(--accent-2) 60%, var(--orb-4));
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url("images/avatar.png") center/cover no-repeat;
   display: grid;
   place-items: center;
   font-family: var(--font-display);
@@ -550,96 +550,25 @@ h2.title {
 }
 
 .c1 {
-  background: linear-gradient(135deg, #1B2F86, #0E1A55 60%, #0A1330);
+  background: url("images/cargologo.png") center/cover no-repeat;
 }
 
-.c1::before {
-  width: 55%;
-  height: 70%;
-  left: 10%;
-  top: 15%;
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-}
 
-.c1::after {
-  width: 38%;
-  height: 38%;
-  right: 8%;
-  bottom: 12%;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #FFB259, #FF7A6B);
-  filter: blur(2px);
-}
 
 .c2 {
-  background: linear-gradient(160deg, #FF7A6B, #FFB259 55%, #FFD79A);
+  background: url("images/melaka.png") center/cover no-repeat;
 }
 
-.c2::before {
-  inset: 14% 24% 14% 24%;
-  border-radius: 22px;
-  background: rgba(10, 19, 48, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(6px);
-}
-
-.c2::after {
-  width: 22%;
-  height: 22%;
-  left: 39%;
-  top: 39%;
-  border-radius: 50%;
-  background: #FFB259;
-}
 
 .c3 {
-  background: linear-gradient(140deg, #0E4B78, #1B6FA8 50%, #5CC8E6);
+  background: url("images/hiv.png") center/cover no-repeat;
 }
 
-.c3::before {
-  left: 8%;
-  right: 8%;
-  bottom: 14%;
-  height: 44%;
-  border-radius: 12px;
-  background: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.28) 0 7%, transparent 7% 14%);
-}
-
-.c3::after {
-  width: 30%;
-  height: 30%;
-  right: 12%;
-  top: 12%;
-  border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.45);
-}
 
 .c4 {
-  background: linear-gradient(135deg, #3A2A8C, #1B2F86 55%, #FF7A6B);
+  background: url("images/logokopi.png") center/50% no-repeat;
 }
 
-.c4::before {
-  width: 60%;
-  height: 60%;
-  left: 20%;
-  top: 20%;
-  transform: rotate(14deg);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-}
-
-.c4::after {
-  width: 24%;
-  height: 24%;
-  left: 14%;
-  bottom: 12%;
-  border-radius: 8px;
-  background: #FFB259;
-  transform: rotate(-12deg);
-}
 
 .c5 {
   background: linear-gradient(150deg, #0A1330, #1B2F86 60%, #5CC8E6);
